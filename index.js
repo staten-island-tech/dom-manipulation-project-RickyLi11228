@@ -9,10 +9,7 @@ DOMSelectors.form.addEventListener("submit", function(event){
    console.log(DOMSelectors.firstName.value);
    DOMSelectors.h2s.forEach(
     (el)=> el.textContent = (DOMSelectors.firstName.value),
-    document.querySelector(".gallery").insertAdjacentHTML
-    ("afterbegin",
-    `<div class="card"><h2 class="card-header">
-    ${DOMSelectors.firstname.value}</h2></div>`
-    )
+    document.querySelector(".Gallery").insertAdjacentHTML("after", 
+    "<div>Hello </div>")
    )});
    
