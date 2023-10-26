@@ -10,8 +10,18 @@ margin: 10rem auto;
     height: 40vh;
     height: 50vh;
     width: 20vw;
-    background-color: rgb(0, 153, 255);
+    background-color: rgb(206, 98, 35);
     border-radius: 20px;
     margin: 0.5rem 0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact;
     }
+body{
+    background-color: rgba(240, 175, 100, 0.973);
+}
+.img{
+    flex-wrap: wrap;
+    align-items: center;
+    height: 190px;
+    width: 190px;
+    object-fit: cover;
+}
