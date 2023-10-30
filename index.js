@@ -20,13 +20,13 @@ const card = DOMSelectors.button.addEventListener("click", function(){
     let input2= DOMSelectors.input2.value;
     let input3 = DOMSelectors.input3.value;
     DOMSelectors.form.insertAdjacentHTML("beforeend",
-    `<div class="gallery">
+    `<div class="column">
     <div class="card">
         <h2 class="card-header" id="column">${input2}</h2>
         <img src="${input3}" alt="" class="img">
         <h3 class="card-info" id="column">${input}</h3>
-    </div>
-    <button type="submit" id="remove">Remove</button>`);
+        <button type="submit" id="remove">Remove</button>
+    </div>`);
     DOMSelectors.input.value = "";
     DOMSelectors.input2.value = "";
     DOMSelectors.input3.value = "";
