@@ -26,7 +26,9 @@ body{
 .img{
     flex-wrap: wrap;
     align-items: center;
-    height: 198px;
+    height: 230px;
     width: 198px;
     object-fit: cover;
+    border: 2px solid #000;
+    border-radius: 9px;
 }

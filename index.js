@@ -22,9 +22,9 @@ const card = DOMSelectors.button.addEventListener("click", function(){
     DOMSelectors.form.insertAdjacentHTML("beforeend",
     `<div class="column">
     <div class="card">
-        <h2 class="card-header" id="column">${input2}</h2>
+        <h2 class="card-header" id="column">${input}</h2>
         <img src="${input3}" alt="" class="img">
-        <h3 class="card-info" id="column">${input}</h3>
+        <h3 class="card-info" id="column">By: ${input2}</h3>
         <button type="submit" id="remove">Remove</button>
     </div>`);
     DOMSelectors.input.value = "";
