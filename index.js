@@ -22,9 +22,9 @@ DOMSelectors.form.addEventListener("submit", function(event){
     DOMSelectors.form.insertAdjacentHTML("beforeend",
     `<div class="gallery">
     <div class="card">
-        <h2 class="card-header" id="column">${input2}</h2>
+        <h2 class="card-header" id="column">${input}</h2>
         <img src = "${input3}" alt = "" class = "img">
-        <h3 class="card-info" id="column">${input}</h3>
+        <h3 class="card-info" id="column">By: ${input2}</h3>
         <button type="click" class="remove">Remove</button>
     </div>
    
