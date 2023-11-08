@@ -20,7 +20,7 @@ DOMSelectors.form.addEventListener("submit", function(event){
     let input2= DOMSelectors.input2.value;
     let input3 = DOMSelectors.input3.value;
     DOMSelectors.form.insertAdjacentHTML("beforeend",
-    `<div class="gallery">
+    `<div class="column">
     <div class="card">
         <h2 class="card-header" id="column">${input}</h2>
         <img src = "${input3}" alt = "" class = "img">
